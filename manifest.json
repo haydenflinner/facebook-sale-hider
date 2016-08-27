@@ -1,0 +1,10 @@
+{
+	"manifest_version": 2,
+	"name": "Tired of Facebook Sale Groups",
+	"version": "0.1.0",
+	"description": "Hides all sale group posts from your Facebook feed.",
+	"content_scripts": [{
+		"js": ["content.js"],
+		"matches": ["https://www.facebook.com/*"]
+	}]
+}

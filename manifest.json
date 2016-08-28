@@ -1,6 +1,7 @@
 {
 	"manifest_version": 2,
-	"name": "Facebook Sale Group Hider",
+	"name": "Facebook Sale Post Hider",
+	"short_name": "FB Sale Hider",
 	"version": "0.1.0",
 	"description": "Hides all sale group posts from your Facebook feed.",
 	"content_scripts": [{
@@ -8,4 +9,8 @@
 		"matches": ["https://www.facebook.com/*"],
 		"excludes_matches": ["https://www.facebook.com/*/*"]
 	}]
+	"icons": {
+		"48": "48.png",
+		"128": "128.png"
+    	}
 }
